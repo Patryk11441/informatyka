@@ -1,0 +1,114 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(45deg, rgb(173, 240, 255), rgb(251, 251, 251), rgb(173, 240, 255));
+}
+
+.title-login
+{
+	font-family: 'Anton', sans-serif;
+	font-size: 30px;
+	color: #FFF;
+	text-align: center;
+	margin-top: 20px;		
+}
+
+.input 
+{
+	font-size: 18px;
+	font-weight: 600;
+	padding: 8px 25px;
+	font-family: 'Oswald', sans-serif;
+	background-color: rgba(0, 0, 0, 0.12);
+	border: 1px solid #266f96;
+	color: #fff;
+	position: absolute;
+	margin-left: 30px;
+	box-shadow: inset -1px 4px 11px 0px rgba(0, 0, 0, 0.32);
+}
+
+.input:focus
+{
+	border: 1px solid #266f96;
+	box-shadow: inset -1px 4px 11px 0px rgba(0, 0, 0, 0.32);
+}
+
+.login
+{
+	margin-top: 20px;
+	width: 253px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input::-webkit-input-placeholder
+{
+	color: #EEE;
+}
+
+input:-moz-placeholder
+{
+	color: #EEE;
+}
+
+.box
+{
+	height: 41px;
+	width: 45px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-image: linear-gradient(80deg, rgb(25, 148, 220), rgb(25, 157, 220), rgb(25, 148, 220));
+	position: relative;
+	border: 1px solid #266f96;
+}
+
+.global-box
+{
+	width: 350px;
+	height: 292px;
+	background-image: linear-gradient(80deg, rgb(25, 148, 220), rgb(25, 157, 220), rgb(25, 148, 220));
+	box-shadow: 6px 9px 20px 0px rgba(0, 0, 0, 0.32);
+	border: 1px solid #c5c5c5;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -200px;
+}
+
+.box-submit
+{
+	background-color: #FFF;
+	padding: 20px;
+	margin-top: 20px;
+	border-bottom: 1px solid #c5c5c5;
+}
+
+.box-error
+{
+	padding: 10px;
+    background-color: #FFF;
+    color: red;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 6px 9px 20px 0px rgba(0, 0, 0, 0.32);
+    border: 1px solid #c5c5c5;
+}
+
+
+.submit
+{
+	width: 310px;
+	padding: 10px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	color: #EEE;
+	border: 1px solid #266f96;
+	background-image: linear-gradient(80deg, rgb(25, 148, 220), rgb(25, 157, 220), rgb(25, 148, 220));
+}
+
+.submit:hover
+{
+	cursor: pointer;
+}
